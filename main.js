@@ -1,4 +1,3 @@
-$(document).ready(function() {
 
   var numeri = [];
 
@@ -8,12 +7,12 @@ $(document).ready(function() {
   document.writeln(numeri_casuali);
 
 
-//  function hide(numeri_casuali) {
-  //  $ (numeri_casuali).hide();
 
 
 
 }
+$(document).ready(function() {
+
 setTimeout(function()  {hide(numeri_casuali)}, 1000)
 
 //var tempo = setTimeout(hide(1000))
